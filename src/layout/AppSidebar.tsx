@@ -63,8 +63,11 @@ const AppSidebar: React.FC = () => {
       icon: <DatabaseIcon />,
       name: "Master Data",
       subItems: [
+        { name: "Product", path: "/products", pro: false },
+        { name: "User", path: "/users", pro: false },
         { name: "Category", path: "/categories", pro: false },
         { name: "Unit", path: "/units", pro: false },
+
       ],
       requiresAuth: true
     },
